@@ -200,8 +200,6 @@ function endGame() {
     localStorage.setItem("bestTime", bestTime);
   }
 
-  bestTimeEl.innerText = `Best: ${bestTime.toFixed(2)}s`;
-
   // HIỆN GAME OVER
   finalTimeEl.innerText = finalTime.toFixed(2);
 
